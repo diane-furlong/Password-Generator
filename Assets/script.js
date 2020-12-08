@@ -32,11 +32,11 @@ function generatePassword() {
   var newPassResult = [];
 
   //Password length
-  var passwordLength = prompt("How many characters would you like your password to be? This must be a number between 5 and 20.");
+  var passwordLength = prompt("How many characters would you like your password to be? This must be a number between 8 and 128.");
 
   //Confirm password length is within parameters
-  if (passwordLength < 5 || passwordLength > 20){
-    alert("Password must be between 5-20 characters.");
+  if (passwordLength < 8 || passwordLength > 128){
+    alert("Password must be between 8-128 characters.");
     return generatePassword();
   }
 
