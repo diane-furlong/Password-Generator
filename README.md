@@ -33,7 +33,7 @@ Deployed application link: (https://diane-furlong.github.io/Password-Generator/)
 
 
 Screenshot of deployed application:
-
+![Alt text](/Assets/password-generator-screenshot.png?raw=true "Password Generator Screenshot")
 
 
 ## Table of Contents
